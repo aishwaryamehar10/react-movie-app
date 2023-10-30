@@ -1,0 +1,65 @@
+.aboutpage {
+    
+    background-color: black;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-conatiner {
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-paragh {
+    color : white;
+    font-family: sans-serif;
+    padding: 30px;
+}
+
+.about-lists {
+    display : flex;
+    align-items : center;
+    justify-content: space-around;
+}
+
+.list-items {
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+.movie-icon {
+    width : 35px;
+    height: 35px;
+    color : yellow;
+    cursor: pointer;
+}
+
+.list-items li{
+    margin: 10px;
+    
+}
+.list-items a {
+    color : white;
+    text-decoration: none;
+}
+
+.list-items a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    color : white;
+}
+
+@media (max-width: 768px) {
+    .list-items {
+        flex-direction: column;
+    }
+
+    .about-lists {
+        flex-direction: column;
+    }
+
+}

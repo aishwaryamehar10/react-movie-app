@@ -1,0 +1,116 @@
+.navbar-container {
+    background-color: black;
+    color : white;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    padding: 10px 20px;
+}
+
+.navbar-container h1{
+    cursor: pointer;
+}
+
+.navbar-container h1:hover {
+    color : yellow;
+}
+
+.navbar-container ul {
+    list-style: none;
+    display: flex;
+    gap : 30px;
+    align-items: center;
+}
+
+.navbar-container ul li {
+    margin-right: 10px;
+}
+
+.navbar-container ul li:last-child{
+    margin-right: 0;
+}
+
+.navbar-container a {
+    text-decoration: none;
+    color : white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.navbar-container a:hover {
+    color : yellow;
+    background-color:#343a40;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-icon {
+    width : 24px;
+    height : 24px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.fav-icon {
+    width: 24px;
+    height : 24px;
+    margin-right: 15px;
+}
+
+.theme-icon {
+    margin-right: 15px;
+}
+
+.theme-icon:hover {
+    background-color: #343a40;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.sun-icon {
+    color: #FFD700; 
+    width: 24px; 
+    height: 24px;
+  }
+  
+ 
+  .moon-icon {
+    color: #CCCCCC;
+    width: 24px; 
+    height: 24px;
+  }
+  @media (max-width: 768px) {
+    .navbar-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-container ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .navbar-container ul li {
+        margin-right: 0;
+    }
+
+    .icons {
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
